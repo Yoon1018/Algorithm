@@ -1,0 +1,7 @@
+Find the Missing Number
+
+https://www.interviewquery.com/questions/find-the-missing-number
+
+
+def missing_number(nums):
+  return sum(range(max(nums)+1))-sum(nums)
